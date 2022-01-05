@@ -27,7 +27,7 @@ const Divider = styled.div`
 export function Header() {
   return (
     <Container>
-      <Title>Mint Your Warriors</Title>
+      <Title>Mint Your Funguys</Title>
       <Divider />
     </Container>
   );
