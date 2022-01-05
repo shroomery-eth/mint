@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 import { Header } from '../components/layout/Header';
 
-import cover from '../assets/cover.png';
+import cover from '../assets/cover.gif';
 import { MintSummary } from '../components/MintSummary';
 import { ReactNode } from 'react';
 
@@ -47,7 +47,7 @@ export function MintSection({
       <Header />
       <Section>
         <Cover>
-          <img src={cover} alt="You Warriors" />
+          <img src={cover} alt="Your Funguys" />
         </Cover>
         <MintSummary
           totalAvailable={totalAvailable}
